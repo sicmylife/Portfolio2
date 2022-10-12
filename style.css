@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:ital,wght@0,500;0,900;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+header .name {
+  padding: 1rem;
+  border-bottom: 2px solid black;
+}
+header .name h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  font-weight: 900;
+}
+header .flex1 {
+  display: flex;
+}
+header .flex1 .description {
+  padding: 200px 40px;
+  border-right: 2px solid black;
+  min-width: 720px;
+  height: 768px;
+  background-color: #D8BAFF;
+  background-color: #53d0de;
+}
+header .flex1 .description h2 {
+  font-weight: 500;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+header .flex1 .description p {
+  padding-bottom: 1rem;
+  font-size: 28px;
+  width: 500px;
+  line-height: 150%;
+  font-weight: 500;
+}
+header .flex1 .description .btn {
+  background: #000000;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 16px 32px;
+  border-radius: 5px;
+  border: none;
+}
+header .flex1 .picture {
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDBE34;
+  background-color: #facf5a;
+  min-width: 720px;
+  width: 100%;
+}
+header .flex1 .picture img {
+  width: 500px;
+}
+header .black-banner {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 0;
+  padding: 20px 20px;
+}
+header .black-banner p {
+  font-size: 56px;
+  letter-spacing: 0.2rem;
+  font-weight: 500 !important;
+  line-height: 120%;
+}
+
+.section2 {
+  padding: 50px 0;
+}
+.section2 h2 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0.035em;
+  text-align: center;
+}
+.section2 .grid .grid-wrapper {
+  padding: 40px 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 606px 606px;
+  gap: 40px;
+}
+.section2 .grid .grid-wrapper .grid1, .section2 .grid .grid-wrapper .grid {
+  width: 606px;
+  height: 336px;
+  padding: 20px 20px 0 20px;
+  background-color: #FF9988;
+  background-color: #53d0de;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.section2 .grid .grid-wrapper .grid1 .icon, .section2 .grid .grid-wrapper .grid .icon {
+  width: 85px;
+}
+.section2 .grid .grid-wrapper .grid1 h3, .section2 .grid .grid-wrapper .grid h3 {
+  font-weight: 500;
+  font-size: 2.2rem;
+  padding-bottom: 1.2rem;
+}
+.section2 .grid .grid-wrapper .grid1 p, .section2 .grid .grid-wrapper .grid p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.028em;
+  text-align: left;
+}
+.section2 .grid .grid-wrapper .grid2 {
+  background-color: #faaef0;
+}
+.section2 .grid .grid-wrapper .grid3 {
+  background-color: #c59df8;
+}
+.section2 .grid .grid-wrapper .grid4 {
+  background-color: #7ea6e2;
+}
+.section2 .grid .grid-wrapper .grid5 {
+  background-color: #f9935c;
+}
+.section2 .grid .grid-wrapper .grid6 {
+  background-color: #F7CB45;
+  background-color: #facf5a;
+}/*# sourceMappingURL=style.css.map */
